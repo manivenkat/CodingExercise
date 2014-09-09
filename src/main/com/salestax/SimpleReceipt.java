@@ -4,7 +4,10 @@ import java.io.PrintWriter;
 
 import main.com.salestax.products.TaxableProduct;
 
+/* 
 
+To print the output in a specified format - makes use of printwriter to print the output 
+*/
 
 
 
