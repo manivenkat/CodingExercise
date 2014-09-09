@@ -1,5 +1,7 @@
 package main.com.salestax.products;
 
+/* implementation of interface to compute total tax, product price+tax, , total product cost */
+
 public class TaxableProductImpl implements TaxableProduct {
 	Product product;
 	
