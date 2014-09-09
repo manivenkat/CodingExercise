@@ -52,12 +52,12 @@ public class ReceiptOutput {
 		// 1 imported box of chocolates at 10.00
 		// 1 imported bottle of perfume at 47.50
 
-		//GoodsFactory.taxStrategy = TaxStrategyImpl.getInstance();
+	 /* Product factory used to create product entites with Producttype and imported set */
 
 		Product boxOfChocolates = ProductFactory.addProduct(ProductType.FOOD,"imported box of chocolate", true);
 		Product bottleOfParfume = ProductFactory.addProduct(ProductType.OTHERS,"imported bottle of perfume", true);
 
-		Order order = new OrderEntry("Output #2");
+		Order order = new OrderEntry("Output #2");  /*  Order entry that provides information to receiptoutput to print*/
 
 		order.addItem(boxOfChocolates, 10.00f, 1);
 		order.addItem(bottleOfParfume, 47.50f, 1);
