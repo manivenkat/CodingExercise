@@ -1,6 +1,6 @@
 package main.com.salestax.products;
 
-
+/* interface to calculate total tax, products price total and product price + tax on that product */
 
 public interface TaxableProduct {
 	
